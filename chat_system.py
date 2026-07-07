@@ -52,7 +52,7 @@ class ChatRoom:
     # Display all messages stored in the chat history
     def show_history(self):
         for message in self.messages:
-            print(f"[{message.timestamp}]"  f"{message.sender.name}: {message.message}") 
+            print(f"[{message.timestamp}]  "  f"{message.sender.name}: {message.message}") 
 
 
     # Display all users currently in the room
